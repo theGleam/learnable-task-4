@@ -93,7 +93,7 @@
 
 .site-main .pet {
     max-width: 350px;
-    box-shadow: var(--box-shadow);
+    box-shadow: 0px 10px 30px rgba(57, 56, 61, 0.205);;
 }
 
 .site-main .pet:hover {
@@ -134,7 +134,7 @@
 .site-main .pet .action {
     display: flex;
     justify-content: end;
-    box-shadow: var(--box-shadow);
+    box-shadow: 0px 10px 30px rgba(57, 56, 61, 0.205);;
     padding: 0.5rem;
 }
 
@@ -252,6 +252,10 @@
     background: url(../img/contact-bg.png) no-repeat;
     padding: 10rem 0;
     margin: 3rem auto;
+}
+
+.site-main .contact-form {
+    width: 80%;
 }
 
 .site-main .contact-us-area .contact .contact-title p {
